@@ -1195,7 +1195,6 @@ p {
     gap: var(--spacing-sm);
     padding: 0 var(--spacing-xs);
   }
-  body {
     
   .hero-content, .hero-image {
     min-width: 0;
@@ -1216,7 +1215,7 @@ p {
     padding: var(--spacing-xs) var(--spacing-sm);
   }
   .hero-image .image-frame img {
-    height: 500px;
+    height: 380px;
     z-index: 1;
   }
   .image-frame {
