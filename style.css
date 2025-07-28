@@ -240,12 +240,19 @@ p {
   color: white;
   transform: rotate(180deg);
 }
-.gambrar {
-  position: center;
+img.gambrar {
+  position: fixed;
   diplay: flex;
-  height: 300px;
-  weidth: 100px;
+  height: 100vh;
+  weidth: 100vw;
+  z-index: -1;
+  object-vit: cover;
+  pointer-events: none;
+  opacity: o.5;
+  top: 0;
+  
 }
+
 
 .mobile-menu-btn {
   display: none;
