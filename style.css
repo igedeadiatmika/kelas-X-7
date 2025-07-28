@@ -1215,7 +1215,7 @@ p {
     padding: var(--spacing-xs) var(--spacing-sm);
   }
   .hero-image .image-frame img {
-    height: 380px;
+    height: 250px;
     z-index: 1;
   }
   .image-frame {
