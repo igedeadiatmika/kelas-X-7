@@ -243,8 +243,8 @@ p {
 .gambrar {
   position: center;
   diplay: flex;
-  height: 100%;
-  weidth: 100%;
+  height: 300px;
+  weidth: 100px;
 }
 
 .mobile-menu-btn {
