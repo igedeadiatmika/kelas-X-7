@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cetujuh Kelas X-7</title>
+
+    <meta property="og:description" content="Cetujuh Kelas X-7" />
+  <meta property="og:title" content="bersama dan terus bersama" />
+  <meta property="og:url" content="https://igedeadiatmika.github.io/portofolio/" />
+  <meta property="og:image" content="https://res.cloudinary.com/dv6dx2xkk/image/upload/v1753515379/WhatsApp_Image_2025-07-26_at_14.28.12_1_uyxznc.jpg" />
+  <meta property="og:image:type" content="image/jpeg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <h2>kelas x-7</h2>
+                <span class="nav-subtitle">Est. 2025</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#students" class="nav-link">Students</a></li>
+                <li><a href="#structure" class="nav-link">Structure</a></li>
+                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+            </ul>
+            <div class="nav-controls">
+                <button class="theme-toggle" id="themeToggle">
+                    <span class="theme-icon">🌙</span>
+                </button>
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">Since 2025</div>
+                <h1 class="hero-title">
+                    <span class="title-line">Cetujuh</span>
+                    <span class="title-line">Organization</span>
+                </h1>
+                <p class="hero-description">
+                    Celebrating excellence, fostering community, and preserving the timeless traditions of academic achievement through elegant organization and meaningful connections.
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" onclick="scrollToSection('students')">Meet Our Students</button>
+                    <button class="btn btn-secondary" onclick="scrollToSection('about')">Learn More</button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-frame">
+                    <img src="https://res.cloudinary.com/dv6dx2xkk/image/upload/v1753515378/WhatsApp_Image_2025-07-26_at_14.28.11_o0hhto.jpg" alt="Heritage Building" loading="lazy">
+                    <div class="image-overlay"></div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Students Section -->
+    <section id="students" class="students-section">
+        <div class="container">
+            <div class="section-header" data-aos="zoom-in-up">
+                <h2 class="section-title">Our Distinguished Students</h2>
+                <p class="section-subtitle">Meet the exceptional individuals who make our class extraordinary</p>
+            </div>
+            
+            <div class="search-filter">
+                <input type="text" id="studentSearch" placeholder="Search students..." class="search-input">
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="president">Leadership</button>
+                    <button class="filter-btn" data-filter="member">Members</button>
+                    <button class="filter-btn" data-filter="committee">Committee</button>
+                </div>
+            </div>
+
+            <div class="students-grid" id="studentsGrid">
+                <!-- Students will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Class Structure Section -->
+    <section id="structure" class="structure-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-aos="zoom-in-up">Class Structure</h2>
+                <p class="section-subtitle" data-aos="fade-up">Our organizational hierarchy and leadership framework</p>
+            </div>
+            
+            <div class="org-chart">
+                <div class="org-level level-1">
+                    <div class="org-card president-card" data-aos="zoom-in-up">
+                        <div class="card-image">
+                            <img src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg" alt="Class President" loading="lazy">
+                        </div>
+                        <div class="card-content">
+                            <h3>Sarah Johnson</h3>
+                            <p>Class President</p>
+                            <span class="position-badge president">Leadership</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="org-level level-2">
+                    <div class="org-card" data-aos="zoom-in-up">
+                        <div class="card-image">
+                            <img src="https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg" alt="Vice President" loading="lazy">
+                        </div>
+                        <div class="card-content">
+                            <h3>Michael Chen</h3>
+                            <p>Vice President</p>
+                            <span class="position-badge vice-president">Executive</span>
+                        </div>
+                    </div>
+                    
+                    <div class="org-card" data-aos="zoom-in-up">
+                        <div class="card-image">
+                            <img src="https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg" alt="Secretary" loading="lazy">
+                        </div>
+                        <div class="card-content">
+                            <h3>Emily Rodriguez</h3>
+                            <p>Secretary</p>
+                            <span class="position-badge secretary">Executive</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="org-level level-3">
+                    <div class="org-card" data-aos="zoom-in-up">
+                        <div class="card-image">
+                            <img src="https://images.pexels.com/photos/1516680/pexels-photo-1516680.jpeg" alt="Treasurer" loading="lazy">
+                        </div>
+                        <div class="card-content">
+                            <h3>James Wilson</h3>
+                            <p>Treasurer</p>
+                            <span class="position-badge treasurer">Finance</span>
+                        </div>
+                    </div>
+                    
+                    <div class="org-card" data-aos="zoom-in-up">
+                        <div class="card-image">
+                            <img src="https://images.pexels.com/photos/1181519/pexels-photo-1181519.jpeg" alt="Events Coordinator" loading="lazy">
+                        </div>
+                        <div class="card-content">
+                            <h3>Lisa Thompson</h3>
+                            <p>Events Coordinator</p>
+                            <span class="position-badge events">Events</span>
+                        </div>
+                    </div>
+                    
+                    <div class="org-card" data-aos="zoom-in-up">
+                        <div class="card-image">
+                            <img src="https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg" alt="Communications" loading="lazy">
+                        </div>
+                        <div class="card-content">
+                            <h3>David Park</h3>
+                            <p>Communications</p>
+                            <span class="position-badge communications">Media</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Class Gallery</h2>
+                <p class="section-subtitle">Capturing our memorable moments and achievements</p>
+            </div>
+            
+            <div class="gallery-filter">
+                <button class="gallery-filter-btn active" data-category="all">All Photos</button>
+                <button class="gallery-filter-btn" data-category="events">Events</button>
+                <button class="gallery-filter-btn" data-category="academic">Academic</button>
+                <button class="gallery-filter-btn" data-category="social">Social</button>
+            </div>
+            
+            <div class="gallery-grid" id="galleryGrid">
+                <!-- Gallery items will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="section-header">
+                        <h2 class="section-title">About Our Heritage</h2>
+                        <p class="section-subtitle">Building tomorrow's leaders through timeless values</p>
+                    </div>
+                    
+                    <div class="about-description">
+                        <p>Our class organization represents a tradition of excellence, community engagement, and academic achievement. Founded on the principles of leadership, integrity, and mutual support, we strive to create an environment where every student can flourish and contribute to our collective success.</p>
+                        
+                        <p>Through our structured approach to organization and our commitment to preserving the elegant traditions of academic life, we prepare our members for future leadership roles while fostering lifelong friendships and professional networks.</p>
+                    </div>
+                    
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <h3 class="stat-number">36</h3>
+                            <p class="stat-label">Active Members</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3 class="stat-number">25+</h3>
+                            <p class="stat-label">Events Annually</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3 class="stat-number">95%</h3>
+                            <p class="stat-label">Graduation Rate</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3 class="stat-number">1</h3>
+                            <p class="stat-label">Years Established</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-image">
+                    <div class="image-stack">
+                        <img src="https://images.pexels.com/photos/159844/cellular-education-classroom-159844.jpeg" alt="Classroom Heritage" class="stack-image primary" loading="lazy">
+                        <img src="https://images.pexels.com/photos/1181406/pexels-photo-1181406.jpeg" alt="Students Learning" class="stack-image secondary" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Heritage Class Organization</h3>
+                    <p>Preserving traditions, building futures, and fostering excellence in academic achievement and community engagement.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#students">Students</a></li>
+                        <li><a href="#structure">Structure</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contact Tim IT Cetujuh</h4>
+                    <p class="tooltip-container">
+                    <a class="social-link" href="https://wa.me/6287728639990?text=Apakabar%20kak%20GEDE%20wkwkwk%20nama%20aku 
+                    (    +    ).%20save%20yaaa%20kaa%20wkwkwk%20😁🙄😅💖" target="_blank">I GEDE ADIATMIKA</a>
+                    <span class="tooltip-text">Developer and programer</span>
+                </p>
+
+                <p class="tooltip-container">
+                    <a class="social-link" href="https://wa.me/6287728639990?text=Apakabar%20kak%20GEDE%20wkwkwk%20nama%20aku 
+                    (    +    ).%20save%20yaaa%20kaa%20wkwkwk%20😁🙄😅💖" target="_blank">I GEDE ADIATMIKA</a>
+                    <span class="tooltip-text">Developer and programer</span>
+                </p>
+
+                <p class="tooltip-container">
+                    <a class="social-link" href="https://wa.me/6287728639990?text=Apakabar%20kak%20GEDE%20wkwkwk%20nama%20aku 
+                    (    +    ).%20save%20yaaa%20kaa%20wkwkwk%20😁🙄😅💖" target="_blank">I GEDE ADIATMIKA</a>
+                    <span class="tooltip-text">Developer and programer</span>
+                </p>
+
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="https://www.Instagram.com/xsevenss?igsh=a3JhaXZTk3ODIq" target="_blank" class="social-link">Instagram</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Cetujuh Kelas X-7. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox" id="lightbox">
+        <div class="lightbox-content">
+            <button class="lightbox-close" id="lightboxClose">&times;</button>
+            <img class="lightbox-image" id="lightboxImage" alt="Gallery Image">
+            <div class="lightbox-caption" id="lightboxCaption"></div>
+            <button class="lightbox-nav prev" id="lightboxPrev">&#8249;</button>
+            <button class="lightbox-nav next" id="lightboxNext">&#8250;</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
