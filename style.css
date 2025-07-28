@@ -240,6 +240,12 @@ p {
   color: white;
   transform: rotate(180deg);
 }
+.gambrar {
+  position: center;
+  diplay: flex;
+  height: 100%;
+  weidth: 100%;
+}
 
 .mobile-menu-btn {
   display: none;
