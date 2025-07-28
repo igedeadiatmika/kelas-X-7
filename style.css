@@ -245,7 +245,7 @@ img.gambrar {
   diplay: flex;
   height: 100vh;
   weidth: 100vw;
-  z-index: -1;
+  z-index: 3;
   object-vit: cover;
   pointer-events: none;
   opacity: o.5;
@@ -280,7 +280,7 @@ img.gambrar {
   position: relative;
   background: linear-gradient(135deg, var(--background-color) 0%, var(--accent-color) 100%);
   overflow: hidden;
-  z-index: -3;
+  z-index: 1;
 }
 
 .hero::before {
@@ -303,7 +303,7 @@ img.gambrar {
   gap: var(--spacing-2xl);
   align-items: center;
   position: relative;
-  z-index: 1;
+  z-index: 4;
 }
 
 .hero-badge {
