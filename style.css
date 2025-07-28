@@ -241,7 +241,7 @@ p {
   transform: rotate(180deg);
 }
 img.gambrar {
-  position: fixed;
+  position: relatif;
   align-item: center;
   diplay: flex;
   height: 100vh;
