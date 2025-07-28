@@ -242,10 +242,11 @@ p {
 }
 img.gambrar {
   position: fixed;
+  align-item: center;
   diplay: flex;
   height: 100vh;
   weidth: 100vw;
-  z-index: 3;
+  z-index: -4;
   object-vit: cover;
   pointer-events: none;
   top: 0;
