@@ -360,7 +360,7 @@ p {
 }
 
 .image-frame img {
-  width: 100%;
+  width: 100px;
   height: 500%;
   object-fit: cover;
   display: block;
