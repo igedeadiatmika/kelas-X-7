@@ -573,8 +573,7 @@ function preloadImages() {
     });
 }
 
-// Initialize preloading
-preloadImages();
+
 
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
 import {
@@ -681,3 +680,7 @@ onValue(totalRef, (snapshot) => {
   const total = snapshot.val() || 0;
   document.querySelector("#totalCount").textContent = total;
 });
+
+
+// Initialize preloading
+preloadImages();
