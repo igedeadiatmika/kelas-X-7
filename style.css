@@ -360,7 +360,7 @@ p {
 }
 
 .image-frame img {
-  width: 250%;
+  width: 100vw;
   height: 500px;
   object-fit: cover;
   display: block;
@@ -1378,5 +1378,6 @@ p {
   opacity: 1;
   transform: translateX(-50%) translateY(5px);
 }
+
 
 
